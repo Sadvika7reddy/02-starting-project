@@ -46,7 +46,7 @@ const Login = (props) => {
     dispatchPassword({type:'Input',val:event.target.value})
 
     setFormIsValid(
-      passwordState.isValid && emailState.isValid
+      passwordState.isValid&& emailState.isValid
     );
   };
 
